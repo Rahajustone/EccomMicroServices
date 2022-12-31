@@ -1,0 +1,17 @@
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.BussinesObjects.deps.json
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.BussinesObjects.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.BussinesObjects.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.Domain.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.Repositories.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.Repositories.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/bin/Debug/net7.0/ProductCatalog.Domain.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BusinessObjects.csproj.AssemblyReference.cache
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BusinessObjects.AssemblyInfoInputs.cache
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BusinessObjects.AssemblyInfo.cs
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BusinessObjects.csproj.CoreCompileInputs.cache
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BusinessObjects.csproj.CopyComplete
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BussinesObjects.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/refint/ProductCatalog.BussinesObjects.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ProductCatalog.BussinesObjects.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/obj/Debug/net7.0/ref/ProductCatalog.BussinesObjects.dll

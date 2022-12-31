@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Configuration;
 using Microsoft.EntityFrameworkCore;
-using ProductCatalog.API.Domain;
+using ProductCatalog.BusinessObjects;
+using ProductCatalog.Domain;
+using ProductCatalog.EFRepositories;
+using ProductCatalog.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +15,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<ICatalogTypeBO, CatalogTypeBO>();
+builder.Services.AddTransient<ICatalogItemBO, CatalogItemBO>();
+builder.Services.AddTransient<ICatalogItemRepository, CatalogItemRepository>();
+builder.Services.AddTransient<ICatalogTypeRepository, CatalogTypeRepository>();
 builder.Services.AddDbContext<ProductCatalogContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 

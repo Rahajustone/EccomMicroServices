@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{C4DC4650-1E96-443C-80A4-02157BBBEE0F}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MCVWebApp FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Services.ProductCatalog.ProductCatalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/ProductCatalog/ProductCatalog.API/ProductCatalog.EFRepositories/ProductCatalogSeed.cs">
+    <Files>
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/appsettings.json" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/Program.cs" Line="27" Column="54" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/appsettings.Development.json" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/Controllers/CatalogItemsController.cs" Line="1" Column="1" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/Domain/CatalogItem.cs" Line="17" Column="1" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/Domain/ProductCatalogSeed.cs" Line="29" Column="35" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/.gitignore" Line="35" Column="10" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/ProductCatalog.BusinessObjects/Class1.cs" Line="1" Column="1" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/ProductCatalog.Repositories/Class1.cs" Line="1" Column="2" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/ProductCatalog.Domain/CatalogBrand.cs" Line="2" Column="25" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/ProductCatalog.Domain/CatalogType.cs" Line="2" Column="25" />
+      <File FileName="Services/ProductCatalog/ProductCatalog.API/ProductCatalog.Domain/ProductCatalogContext.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyEcomApp" expanded="True">
+            <Node name="Services" expanded="True">
+              <Node name="ProductCatalog" expanded="True">
+                <Node name="ProductCatalog.API" expanded="True" />
+                <Node name="ProductCatalog.EFRepositories" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="ProductCatalog.Repositories" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

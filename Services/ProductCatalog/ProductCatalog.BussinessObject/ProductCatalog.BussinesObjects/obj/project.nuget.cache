@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ls8GWgmUoN/x3fKjGGz2BP9wHgAhtqUN0IMCpEkz72GBEOgO/cxzOJ4YHVqUqMFNQdlnL9C47X4hoiYsveWmDA==",
+  "success": true,
+  "projectFilePath": "/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.BussinessObject/ProductCatalog.BussinesObjects/ProductCatalog.BusinessObjects.csproj",
+  "expectedPackageFiles": [
+    "/Users/rkholov/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/rkholov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

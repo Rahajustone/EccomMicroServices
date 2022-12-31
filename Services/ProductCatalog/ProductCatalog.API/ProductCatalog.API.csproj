@@ -27,7 +27,6 @@
 
   <ItemGroup>
     <None Remove="Controllers\" />
-    <None Remove="Domain\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
@@ -37,6 +36,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Domain\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProductCatalog.BussinessObject\ProductCatalog.BussinesObjects\ProductCatalog.BusinessObjects.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\ProductCatalog.EFRepositories\ProductCatalog.EFRepositories\ProductCatalog.EFRepositories.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

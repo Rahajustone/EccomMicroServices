@@ -1,0 +1,15 @@
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/bin/Debug/net7.0/ProductCatalog.Repositories.deps.json
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/bin/Debug/net7.0/ProductCatalog.Repositories.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/bin/Debug/net7.0/ProductCatalog.Repositories.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/bin/Debug/net7.0/ProductCatalog.Domain.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/bin/Debug/net7.0/ProductCatalog.Domain.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.csproj.AssemblyReference.cache
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.AssemblyInfoInputs.cache
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.AssemblyInfo.cs
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.csproj.CoreCompileInputs.cache
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.csproj.CopyComplete
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/refint/ProductCatalog.Repositories.dll
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ProductCatalog.Repositories.pdb
+/Users/rkholov/Desktop/Microserver/MyEcomApp/Services/ProductCatalog/ProductCatalog.Repositories/ProductCatalog.Repositories/obj/Debug/net7.0/ref/ProductCatalog.Repositories.dll

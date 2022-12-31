@@ -9,6 +9,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCatalog", "ProductCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.API", "Services\ProductCatalog\ProductCatalog.API\ProductCatalog.API.csproj", "{C4DC4650-1E96-443C-80A4-02157BBBEE0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.BusinessObjects", "Services\ProductCatalog\ProductCatalog.BussinessObject\ProductCatalog.BussinesObjects\ProductCatalog.BusinessObjects.csproj", "{429E15B3-F195-4D27-AD89-463378C6E5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.Domain", "Services\ProductCatalog\ProductCatalog.Domain\ProductCatalog.Domain\ProductCatalog.Domain.csproj", "{A22D6D16-C124-4E3E-BE0B-E572BF573BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.EFRepositories", "Services\ProductCatalog\ProductCatalog.EFRepositories\ProductCatalog.EFRepositories\ProductCatalog.EFRepositories.csproj", "{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.Repositories", "Services\ProductCatalog\ProductCatalog.Repositories\ProductCatalog.Repositories\ProductCatalog.Repositories.csproj", "{0FB60581-D7A1-4E30-B984-7DAE7997734A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCVWebApp", "WebClients\MCVWebApp\MCVWebApp.csproj", "{C2B022D2-917B-49D6-B3E2-F0F1557160C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +29,26 @@ Global
 		{C4DC4650-1E96-443C-80A4-02157BBBEE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4DC4650-1E96-443C-80A4-02157BBBEE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4DC4650-1E96-443C-80A4-02157BBBEE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429E15B3-F195-4D27-AD89-463378C6E5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429E15B3-F195-4D27-AD89-463378C6E5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429E15B3-F195-4D27-AD89-463378C6E5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429E15B3-F195-4D27-AD89-463378C6E5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22D6D16-C124-4E3E-BE0B-E572BF573BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22D6D16-C124-4E3E-BE0B-E572BF573BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22D6D16-C124-4E3E-BE0B-E572BF573BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22D6D16-C124-4E3E-BE0B-E572BF573BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB60581-D7A1-4E30-B984-7DAE7997734A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB60581-D7A1-4E30-B984-7DAE7997734A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB60581-D7A1-4E30-B984-7DAE7997734A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB60581-D7A1-4E30-B984-7DAE7997734A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,5 +59,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{39F7107B-A6CB-435F-8157-3E7C56373264} = {842A2619-6C8B-4A7D-B174-D132DA79597A}
 		{C4DC4650-1E96-443C-80A4-02157BBBEE0F} = {39F7107B-A6CB-435F-8157-3E7C56373264}
+		{429E15B3-F195-4D27-AD89-463378C6E5BB} = {39F7107B-A6CB-435F-8157-3E7C56373264}
+		{A22D6D16-C124-4E3E-BE0B-E572BF573BFC} = {39F7107B-A6CB-435F-8157-3E7C56373264}
+		{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5} = {39F7107B-A6CB-435F-8157-3E7C56373264}
+		{0FB60581-D7A1-4E30-B984-7DAE7997734A} = {39F7107B-A6CB-435F-8157-3E7C56373264}
 	EndGlobalSection
 EndGlobal

@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProductCatalog.API.Domain;
+using ProductCatalog.BusinessObjects;
+using ProductCatalog.Domain;
+using ProductCatalog.EFRepositories;
 
 namespace ProductCatalog.API.Controllers
 {
@@ -13,33 +15,26 @@ namespace ProductCatalog.API.Controllers
     [ApiController]
     public class CatalogTypesController : ControllerBase
     {
-        private readonly ProductCatalogContext _context;
+        private readonly ICatalogTypeBO _catalogTypeBO;
 
-        public CatalogTypesController(ProductCatalogContext context)
+        public CatalogTypesController(ICatalogTypeBO catalogTypeBO)
         {
-            _context = context;
+            _catalogTypeBO = catalogTypeBO;
         }
 
         // GET: api/CatalogTypes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CatalogType>>> GetCatalogTypes()
         {
-          if (_context.CatalogType == null)
-          {
-              return NotFound();
-          }
-            return await _context.CatalogType.ToListAsync();
+            var res = await _catalogTypeBO.GetAll();
+            return Ok(res);
         }
 
         // GET: api/CatalogTypes/5
         [HttpGet("{id}")]
         public async Task<ActionResult<CatalogType>> GetCatalogType(int id)
         {
-          if (_context.CatalogType == null)
-          {
-              return NotFound();
-          }
-            var catalogType = await _context.CatalogType.FindAsync(id);
+            var catalogType = await _catalogTypeBO.Get(id);
 
             if (catalogType == null)
             {
@@ -59,22 +54,14 @@ namespace ProductCatalog.API.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(catalogType).State = EntityState.Modified;
 
             try
             {
-                await _context.SaveChangesAsync();
+                await _catalogTypeBO.Update(catalogType);
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CatalogTypeExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                throw;
             }
 
             return NoContent();
@@ -85,39 +72,18 @@ namespace ProductCatalog.API.Controllers
         [HttpPost]
         public async Task<ActionResult<CatalogType>> PostCatalogType(CatalogType catalogType)
         {
-          if (_context.CatalogType == null)
-          {
-              return Problem("Entity set 'ProductCatalogContext.CatalogType'  is null.");
-          }
-            _context.CatalogType.Add(catalogType);
-            await _context.SaveChangesAsync();
+            var res = await _catalogTypeBO.Add(catalogType);
 
-            return CreatedAtAction("GetCatalogType", new { id = catalogType.Id }, catalogType);
+            return CreatedAtAction("GetCatalogType", new { id = catalogType.Id }, res);
         }
 
         // DELETE: api/CatalogTypes/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCatalogType(int id)
         {
-            if (_context.CatalogType == null)
-            {
-                return NotFound();
-            }
-            var catalogType = await _context.CatalogType.FindAsync(id);
-            if (catalogType == null)
-            {
-                return NotFound();
-            }
-
-            _context.CatalogType.Remove(catalogType);
-            await _context.SaveChangesAsync();
+            await _catalogTypeBO.Delete(id);
 
             return NoContent();
-        }
-
-        private bool CatalogTypeExists(int id)
-        {
-            return (_context.CatalogType?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
