@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  mvcwebapp:
+    image: mvcwebapp
+    build:
+      context: .
+      dockerfile: WebClients/MCVWebApp/Dockerfile
+    environment:
+      - CatalogUrl=http://productcatalog.api
+    depends_on:
+     -  productcatalog.api
+
+  productcatalog.api:
+    image: productcatalogapi
+    build:
+      context: .
+      dockerfile: Services/ProductCatalog/ProductCatalog.API/Dockerfile
+    environment:
+      - ConnectionStrings__ProductCatalogContext=Server=mssqlserver;Database=ProductCatalog;uid=sa;pwd=YourStrongP@ssword;MultipleActiveResultSets=true
+    depends_on:
+     - mssqlserver
+
+  mssqlserver:
+    image: "mcr.microsoft.com/azure-sql-edge"
+    ports:
+      - "1433" 
+    environment:
+      - SA_PASSWORD=YourStrongP@ssword
+      - ACCEPT_EULA=Y
+     volumes:
+     - sqlvolume:/var/opt/mssql
+
+volumes:
+  sqlvolume:

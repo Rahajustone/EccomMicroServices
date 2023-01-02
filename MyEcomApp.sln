@@ -19,6 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog.Repositories
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCVWebApp", "WebClients\MCVWebApp\MCVWebApp.csproj", "{C2B022D2-917B-49D6-B3E2-F0F1557160C6}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E100C543-C4F0-470C-92A9-E7361CEAA6E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D06E43A4-E8FB-411B-91E1-D047152C2208}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +56,10 @@ Global
 		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B022D2-917B-49D6-B3E2-F0F1557160C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E100C543-C4F0-470C-92A9-E7361CEAA6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E100C543-C4F0-470C-92A9-E7361CEAA6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E100C543-C4F0-470C-92A9-E7361CEAA6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E100C543-C4F0-470C-92A9-E7361CEAA6E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +74,10 @@ Global
 		{A22D6D16-C124-4E3E-BE0B-E572BF573BFC} = {39F7107B-A6CB-435F-8157-3E7C56373264}
 		{85D6AF94-0642-42DA-8F5D-DB8EDD3FDFD5} = {39F7107B-A6CB-435F-8157-3E7C56373264}
 		{0FB60581-D7A1-4E30-B984-7DAE7997734A} = {39F7107B-A6CB-435F-8157-3E7C56373264}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 	EndGlobalSection
 EndGlobal
